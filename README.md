@@ -59,7 +59,7 @@ signed, and verified in your terminal.
 
 Full spec, architecture, and worked example: [WHITEPAPER.md](whitepaper_PACT_protocol.md)
 
-Introduction and context (non-technical): [Substack post →](SUBSTACK_LINK_HERE)
+Introduction and context (non-technical): [Substack post →](https://teej260783.substack.com/p/ai-agents-are-about-to-spend-money)
 
 ## Status
 
