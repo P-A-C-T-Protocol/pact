@@ -48,18 +48,22 @@ Requires Python 3.8+ and one dependency:
 
 ```bash
 pip install cryptography
-python pact_reference_v01.py
+python pact_reference_v02.py
 ```
 
-This runs a complete A2A transaction end-to-end using real Ed25519 cryptography.
-No internet. No API keys. No money moves. You will see a full PVP generated,
-signed, and verified in your terminal.
+This runs three A2A transaction scenarios end-to-end using real Ed25519 cryptography:
+a valid purchase, a daily cap rejection, and a vendor allowlist rejection. No internet.
+No API keys. No money moves. You will see full PVPs generated, signed, and verified
+— including canonical JSON, PDPP rule evaluation, and tamper-evident evaluation hashes.
+
+*(The original `pact_reference_v01.py` is preserved for reference — it shows the
+minimal skeleton before the PDPP evaluator was added.)*
 
 ## Read the whitepaper
 
 Full spec, architecture, and worked example: [WHITEPAPER.md](whitepaper_PACT_protocol.md)
 
-Introduction and context (non-technical): [Substack post →](https://teej260783.substack.com/p/ai-agents-are-about-to-spend-money)
+Introduction and context (non-technical): [Substack post →](https://open.substack.com/pub/teej260783/p/ai-agents-are-about-to-spend-money?utm_campaign=post-expanded-share&utm_medium=web)
 
 ## Status
 
